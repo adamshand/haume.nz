@@ -33,9 +33,8 @@
 		justify-content: start;
 		align-items: top;
 
-		margin-inline: var(--size-7);
-		padding: var(--size-5);
-		padding-bottom: var(--size-8);
+		padding-inline: var(--size-5);
+		padding-block: var(--size-8);
 		background-color: var(--surface-2);
 		color: var(--text-2);
 		border-radius: var(--radius-conditional-3);

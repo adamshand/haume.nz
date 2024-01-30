@@ -21,18 +21,18 @@
 	{/if}
 </svelte:head>
 
-<header>
-	<!-- kite: 1FA81, earth:  1F30F -->
-	<h1>Welcome</h1>
-	<Openmoji id="1F30F" />
-	<h1>Haume</h1>
-</header>
-
 <main>
-	<slot />
-</main>
+	<header>
+		<!-- kite: 1FA81, earth:  1F30F -->
+		<h1>Welcome</h1>
+		<Openmoji id="1F30F" />
+		<h1>Haume</h1>
+	</header>
 
-<Footer />
+	<slot />
+
+	<Footer />
+</main>
 
 <style>
 	/* :global(*) {
@@ -55,5 +55,13 @@
 		margin-block: var(--size-3);
 		color: var(--text-2);
 		font-size: var(--font-size-fluid-2);
+	}
+	main {
+		margin-inline: var(--size-7);
+	}
+	@media (max-width: 640px) {
+		main {
+			margin-inline: 0;
+		}
 	}
 </style>

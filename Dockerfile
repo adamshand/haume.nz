@@ -17,7 +17,7 @@ COPY --from=builder /staging/build /app/build
 
 EXPOSE 3000
 # CMD ["node", "-r", "dotenv/config", "/app/build/index.js"]
-CMD ["node", "-r", "/app/build/index.js"]
+CMD ["node", "/app/build/index.js"]
 
 
 # ARG TZ=Pacific/Auckland

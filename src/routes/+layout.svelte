@@ -2,6 +2,9 @@
 	import 'open-props/open-props.min.css'
 	import 'open-props/normalize.min.css'
 	import 'open-props/buttons.min.css'
+	import 'open-props/masks/edges'
+	import 'open-props/src/props.masks.edges.css'
+	import 'open-props/masks.edges.min.css'
 
 	import { dev } from '$app/environment'
 	import Footer from '$lib/components/Footer.svelte'

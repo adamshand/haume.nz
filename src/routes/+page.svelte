@@ -35,10 +35,12 @@
 
 		margin-inline: var(--size-7);
 		padding: var(--size-5);
+		padding-bottom: var(--size-8);
 		background-color: var(--surface-2);
 		color: var(--text-2);
-		border-radius: var(--radius-3);
 		border-radius: var(--radius-conditional-3);
+		mask: var(--mask-edge-zig-zag-bottom);
+		-webkit-mask: var(--mask-edge-zig-zag-bottom);
 	}
 	img {
 		height: var(--size-fluid-9);
@@ -50,7 +52,6 @@
 		margin-left: var(--size-fluid-3);
 	}
 	h1 {
-		margin-bottom: var(--size-5);
 		color: var(--jungle-9);
 		font-size: var(--font-size-fluid-2);
 	}
@@ -61,8 +62,6 @@
 		section {
 			flex-direction: column;
 			align-items: center;
-			/* width: 100vw; */
-			margin: auto;
 		}
 
 		img {

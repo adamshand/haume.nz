@@ -10,14 +10,16 @@
 
 <style>
 	footer {
-		/* display: flex;
-		justify-content: center; */
-		color: var(--gray-7);
-
-		width: 100%;
-		padding-inline: var(--size-fluid-5);
-		padding-bottom: var(--size-fluid-2);
+		margin-inline: var(--size-7);
+		margin-bottom: var(--size-7);
+		padding: var(--size-7) var(--size-3) var(--size-3) var(--size-3);
 		text-align: center;
+		background-color: var(--surface-2);
+		/* color: var(--text-1); */
+		border-radius: var(--radius-conditional-3);
+		mask: var(--mask-edge-zig-zag-top);
+		-webkit-mask: var(--mask-edge-zig-zag-top);
+		color: var(--gray-6);
 	}
 	a {
 		color: var(--jungle-10);

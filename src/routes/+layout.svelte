@@ -35,9 +35,9 @@
 <Footer />
 
 <style>
-	:global(*) {
-		/* border: 1px solid salmon; */
-	}
+	/* :global(*) {
+		border: 1px solid salmon;
+	} */
 	:global(body) {
 		display: flex;
 		flex-direction: column;

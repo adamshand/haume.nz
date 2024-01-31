@@ -1,16 +1,20 @@
 <script lang="ts">
 	export let id: string
-	// export let width = '1.2em'
+	export let size: 's' | 'm' | 'l' = 'm'
+	const src =
+		'https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji/color/svg/' + id.toUpperCase() + '.svg'
 </script>
 
-<img
-	alt="emoji"
-	src="https://cdn.jsdelivr.net/gh/hfg-gmuend/openmoji/color/svg/{id.toUpperCase()}.svg"
-/>
+<img alt="Openmoji icon" class={size} {src} />
 
-<!-- style="width: {width}; height: {width};" -->
 <style>
-	img {
+	.s {
+		width: var(--font-size-fluid-1);
+	}
+	.m {
+		width: var(--font-size-fluid-2);
+	}
+	.l {
 		width: var(--font-size-fluid-3);
 	}
 </style>

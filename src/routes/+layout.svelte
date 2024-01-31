@@ -7,8 +7,9 @@
 	import 'open-props/masks.edges.min.css'
 
 	import { dev } from '$app/environment'
+	// import Header from '$lib/components/Header.svelte'
 	import Footer from '$lib/components/Footer.svelte'
-	import Openmoji from '$lib/components/Openmoji.svelte'
+	// import Openmoji from '$lib/components/Openmoji.svelte'
 </script>
 
 <svelte:head>
@@ -16,21 +17,13 @@
 		<script
 			async
 			src="https://umami.haume.nz/script.js"
-			data-website-id="67b5a50a-d032-4f08-b3b2-e8394a3321d8"
-		></script>
+			data-website-id="67b5a50a-d032-4f08-b3b2-e8394a3321d8"></script>
 	{/if}
 </svelte:head>
 
 <main>
-	<header>
-		<!-- kite: 1FA81, earth:  1F30F -->
-		<h1>Welcome</h1>
-		<Openmoji id="1F30F" />
-		<h1>Haume</h1>
-	</header>
-
+	<!-- <Header /> -->
 	<slot />
-
 	<Footer />
 </main>
 
@@ -45,30 +38,19 @@
 
 		min-height: 100vh;
 	}
-	header {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		gap: var(--size-3);
-	}
-	h1 {
-		margin-block: var(--size-3);
-		color: var(--text-2);
-		font-size: var(--font-size-fluid-2);
-	}
-	main {
-		margin-inline: var(--size-7);
-	}
-	:global(a) {
+	/* :global(a, a:visited) {
 		color: var(--jungle-10);
 	}
 	:global(a:hover) {
 		text-decoration: none;
 		color: var(--jungle-8);
+	} */
+	main {
+		margin: var(--size-7);
 	}
 	@media (max-width: 640px) {
 		main {
-			margin-inline: 0;
+			margin: 0;
 		}
 	}
 </style>

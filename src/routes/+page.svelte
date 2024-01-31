@@ -1,4 +1,5 @@
 <script lant="ts">
+	import CTA from '$lib/components/CTA.svelte'
 	import Socials from '$lib/components/Socials.svelte'
 </script>
 
@@ -15,7 +16,7 @@
 		</p>
 		<p>
 			I mostly work with individuals and small businesses. I usually bill by the hour and am happy
-			to take on small projects. I can do My speciality is helping you determine how best to deploy
+			to take on small projects. My speciality is helping you determine how best to deploy
 			technology to meet your personal or business needs (and then building whatever is required).
 			I'm a believer in less-is-more when it comes to technology and want to help you make the most
 			of what you already have. Some of my favourite tools include Debian Linux, macOS, Docker,
@@ -25,19 +26,19 @@
 		<p>
 			I've been working in technology since the early 90s when I built one of New Zealand's first
 			dialup ISPs. I spent the late 90s and early 2000s in the United States working for a variety
-			of dot-com startups, and then moved back to Wellington to work with (and later manage) Weta
-			Digital's infrastructure team. At Digi, I got to work on a bunch of amazing projects including
+			of dot-com startups. In 2003 I moved back to Wellington to work with (and later manage) Weta
+			Digital's infrastructure team where I got to work on a bunch of amazing projects including
 			<em>The Lord of the Rings</em> and <em>Avatar</em>.
 		</p>
 		<p>
-			I have long-standing interests and practices in regenerative agriculture, nonviolent
+			I have long-standing interests and practices in regenerative agriculture, espresso, nonviolent
 			communication, vipassanā meditation, ketogenic diets, and open source software.
 		</p>
 	</article>
 </section>
 
 <div>
-	<h2>Get in touch?</h2>
+	<CTA />
 	<Socials />
 </div>
 
@@ -65,12 +66,13 @@
 		margin-left: var(--size-fluid-3);
 	}
 	h2 {
-		margin-bottom: var(--size-3);
+		margin-bottom: var(--size-fluid-1);
 		color: var(--jungle-9);
 		font-size: var(--font-size-fluid-2);
 	}
 	p {
-		margin-block: var(--size-3);
+		margin-bottom: var(--size-3);
+		color: var(--text-2);
 	}
 	div {
 		display: flex;
@@ -79,6 +81,7 @@
 		align-items: center;
 		padding-block: var(--size-5);
 	}
+
 	@media (max-width: 640px) {
 		section {
 			flex-direction: column;

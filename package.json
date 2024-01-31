@@ -11,7 +11,7 @@
 		"test": "vitest",
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write .",
-		"deployprod": "caprover deploy -h https://captain.ruru.haume.nz -a haume-nz -b main -p $CAPROVER_PASS"
+		"deployprod": "caprover deploy -h https://captain.ruru.haume.nz -a haume-nz -b main -p $(awk -F= '/^CAPROVER_PASS=/ {print $2}' ~/.env)"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.1.1",

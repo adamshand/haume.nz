@@ -19,12 +19,12 @@
 	{#each icons as icon}
 		{#if icon.link}
 			<a href={icon.link} rel="me,noopener" target="_blank">
-				<Openmoji id={icon.id} />
+				<Openmoji id={icon.id} size="l" />
 			</a>
 		{:else}
 			<a href={icon.link} rel="me,noopener" target="_blank">
 				<!-- <Openmoji id={icon.id} {width} /> -->
-				<Openmoji id={icon.id} />
+				<Openmoji id={icon.id} size="l" />
 			</a>
 		{/if}
 	{/each}

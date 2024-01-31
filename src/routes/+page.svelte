@@ -3,6 +3,17 @@
 	import Socials from '$lib/components/Socials.svelte'
 </script>
 
+<svelte:head>
+	<meta property="og:title" content="Kia ora, I'm Adam a freelancer on the Kāpiti Coast" />
+	<meta
+		property="og:description"
+		content="I work with local businesses and will take on small projects. I believe in less-is-more and will help you make the most of what you already have." />
+	<meta property="og:type" content="website" />
+	<meta
+		property="og:image"
+		content="https://pb.haume.nz/api/files/amu003xvt8ezymb/i9abatyw4ug5ag9/audrey_4hIFaCF5f1.jpg?token=" />
+	<meta property="og:url" content="https://haume.nz" />
+</svelte:head>
 <!-- src="https://pb.haume.nz/api/files/amu003xvt8ezymb/i9abatyw4ug5ag9/cables_Hrw92cz83c.jpg?token=" -->
 <section>
 	<img

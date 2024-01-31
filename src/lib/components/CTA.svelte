@@ -26,14 +26,12 @@
 		font-style: italic;
 	}
 	button {
-		margin-bottom: var(--size-3);
-		background-color: var(--jungle-9);
-		border: 1px solid var(--jungle-11);
-		color: var(--surface-1);
+		margin-bottom: var(--size-fluid-3);
+		color: var(--jungle-9);
 		text-shadow: none;
 
 		&:hover {
-			background-color: var(--jungle-8);
+			color: var(--jungle-7);
 		}
 	}
 </style>

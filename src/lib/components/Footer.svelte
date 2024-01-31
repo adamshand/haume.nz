@@ -18,13 +18,6 @@
 		-webkit-mask: var(--mask-edge-zig-zag-top);
 		color: var(--gray-6);
 	}
-	a {
-		color: var(--jungle-10);
-	}
-	a:hover {
-		text-decoration: none;
-		color: var(--jungle-8);
-	}
 	@media (max-width: 640px) {
 		footer {
 			margin-inline: 0;

@@ -59,6 +59,13 @@
 	main {
 		margin-inline: var(--size-7);
 	}
+	:global(a) {
+		color: var(--jungle-10);
+	}
+	:global(a:hover) {
+		text-decoration: none;
+		color: var(--jungle-8);
+	}
 	@media (max-width: 640px) {
 		main {
 			margin-inline: 0;

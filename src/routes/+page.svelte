@@ -2,30 +2,44 @@
 	import Socials from '$lib/components/Socials.svelte'
 </script>
 
+<!-- src="https://pb.haume.nz/api/files/amu003xvt8ezymb/i9abatyw4ug5ag9/cables_Hrw92cz83c.jpg?token=" -->
 <section>
 	<img
-		src="https://pb.haume.nz/api/files/amu003xvt8ezymb/i9abatyw4ug5ag9/cables_Hrw92cz83c.jpg?token="
-		alt="square"
-	/>
+		src="https://pb.haume.nz/api/files/amu003xvt8ezymb/i9abatyw4ug5ag9/audrey_4hIFaCF5f1.jpg?token="
+		alt="square" />
 	<article>
-		<h1>Kia ora,</h1>
+		<h2>Kia ora,</h2>
 
 		<p>
-			We can assume that any instance of a population can be construed as a bractless december. The
-			spinach of a buffet becomes a glassy flame. The wines could be said to resemble valiant
-			germanies. A hook can hardly be considered an unfirm servant without also being a beat. They
-			were lost without the discreet father-in-law that composed their fork.
+			<b>I’m Adam, a freelancer on New Zealand’s Kāpiti Coast.</b>
 		</p>
 		<p>
-			In ancient times the literature would have us believe that a ridgy pollution is not but an
-			editor. It's an undeniable fact, really; the muscly van comes from a nary pruner. A quicksand
-			is a pike's kendo. If this was somewhat unclear, they were lost without the sanguine pickle
-			that composed their slope. Interests are salving waves. businesses.
+			I mostly work with individuals and small businesses. I usually bill by the hour and am happy
+			to take on small projects. I can do My speciality is helping you determine how best to deploy
+			technology to meet your personal or business needs (and then building whatever is required).
+			I'm a believer in less-is-more when it comes to technology and want to help you make the most
+			of what you already have. Some of my favourite tools include Debian Linux, macOS, Docker,
+			JavaScript, and SvelteKit.
+		</p>
+
+		<p>
+			I've been working in technology since the early 90s when I built one of New Zealand's first
+			dialup ISPs. I spent the late 90s and early 2000s in the United States working for a variety
+			of dot-com startups, and then moved back to Wellington to work with (and later manage) Weta
+			Digital's infrastructure team. At Digi, I got to work on a bunch of amazing projects including
+			<em>The Lord of the Rings</em> and <em>Avatar</em>.
+		</p>
+		<p>
+			I have long-standing interests and practices in regenerative agriculture, nonviolent
+			communication, vipassanā meditation, and ketogenic diets.
 		</p>
 	</article>
 </section>
 
-<div><Socials /></div>
+<div>
+	<h2>Get in touch?</h2>
+	<Socials />
+</div>
 
 <style>
 	section {
@@ -50,11 +64,19 @@
 		flex: 1;
 		margin-left: var(--size-fluid-3);
 	}
-	h1 {
+	h2 {
+		margin-bottom: var(--size-3);
 		color: var(--jungle-9);
 		font-size: var(--font-size-fluid-2);
 	}
+	p {
+		margin-block: var(--size-3);
+	}
 	div {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 		padding-block: var(--size-5);
 	}
 	@media (max-width: 640px) {

@@ -31,7 +31,7 @@
 		</p>
 		<p>
 			I have long-standing interests and practices in regenerative agriculture, nonviolent
-			communication, vipassanā meditation, and ketogenic diets.
+			communication, vipassanā meditation, ketogenic diets, and open source software.
 		</p>
 	</article>
 </section>

@@ -27,11 +27,8 @@
 	}
 	button {
 		margin-bottom: var(--size-3);
-
 		background-color: var(--jungle-9);
 		border: 1px solid var(--jungle-11);
-		/* color: var(--gray-1); */
-		font-weight: 900;
 		color: var(--surface-1);
 		text-shadow: none;
 
